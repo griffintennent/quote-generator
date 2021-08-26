@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function QuoteGeneratorCard() {
   return (
     <div className="quote-box">
       <button>MyButton</button>
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default QuoteGeneratorCard;
