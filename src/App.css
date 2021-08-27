@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +36,19 @@
   100% {
     transform: translateY(0px);
   }
+} */
+
+body{
+  background-color:darkolivegreen;
+}
+
+#quote-box{
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 50vw;
+  display: table;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 3px;
+  margin: auto;
 }
