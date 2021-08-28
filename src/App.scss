@@ -1,0 +1,38 @@
+$primary-color: darkolivegreen;
+
+#bootstrap-override{
+  background-color:$primary-color;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+
+#quote-box{
+  position: relative;
+  background-color: white;
+  width: 50vw;
+  display: table;
+  font-family: Palatino, “Palatino Linotype”, “Palatino LT STD”, “Book Antiqua”, Georgia, serif;  
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px 15px 15px 15px;
+}
+
+#button-zone{
+  width: 100%;
+}
+
+#author-zone{
+  text-align: right;
+  padding-bottom: 1em;
+}
+
+#new-quote{
+  float: right;
+  background-color:$primary-color;
+}
+
+.fab{
+  color: $primary-color;
+}
